@@ -6,7 +6,8 @@ database.
 ## Running the script: 
 
 1. npm install
-2. node index.js 
+2. docker run --name="seeding-from-json" -d -p 5432:5432 -e POSTGRES_PASSWORD=secret postgres     
+3. node index.js 
 
 ## Decisions taken: 
 
