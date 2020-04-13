@@ -82,3 +82,5 @@ async function jsonToDB() {
 }
 
 jsonToDB();
+
+module.exports = jsonToDB;
