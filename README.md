@@ -3,6 +3,11 @@
 Write a process that imports the contents of a JSON-file cleanly and consistently to a
 database. 
 
+## Running the script: 
+
+1. npm install
+2. node index.js 
+
 ## Decisions taken: 
 
 1. I used vanilla JavaScript because of  familiarity and prior experience with it. 
