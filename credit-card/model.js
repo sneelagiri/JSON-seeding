@@ -17,6 +17,4 @@ const Card = db.define("card", {
   },
 });
 
-Card.belongsTo(Client);
-
 module.exports = Card;

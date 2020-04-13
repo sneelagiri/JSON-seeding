@@ -1,4 +1,6 @@
 const express = require("express");
+const Client = require("./client/model");
+const Card = require("./credit-card/model");
 const app = express();
 const port = process.env.PORT || 4000;
 

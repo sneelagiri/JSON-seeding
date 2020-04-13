@@ -19,7 +19,7 @@ const Client = db.define("client", {
     type: Sequelize.STRING,
   },
   date_of_birth: {
-    type: Sequelize.DATE,
+    type: Sequelize.STRING,
   },
   email: {
     type: Sequelize.STRING,
@@ -31,6 +31,6 @@ const Client = db.define("client", {
   },
 });
 
-Client.hasMany(Card);
+Client.hasMany(Card, { as: "cards", foreignKey: "clientId" });
 
 module.exports = Client;
