@@ -27,5 +27,13 @@ database.
 
 8. For the three identical digits sequence: I would use a combination of If statements and regex.
 
+## Limitations: 
+
+1. Did not encrypt sensitive data such as credit card information and personal details. 
+
+2. Solution is resource-intensive
+
+3. Solution does not use seeder or migration files
+
 
 Thank you for taking the time to evaluate this assessment. I would appreciate feedback on how to improve. 
